@@ -5,7 +5,7 @@ def split_before_uppercases(formula):
     Splits a chemical formula (string) into a list of elements based on uppercase letters.
     Example: 'Fe2O3' -> ['Fe2', 'O3']
     """
-    return re.findall(r'[A-Z][a-z]\d', formula)
+    return re.findall(r'[A-Z][a-z]?\d', formula)
 
 def split_at_digit(element_string):
     """
