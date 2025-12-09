@@ -1,5 +1,3 @@
-import re
-
 def split_before_uppercases(formula):
     """
     Splits a chemical formula (string) into a list of elements based on uppercase letters.
